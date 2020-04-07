@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Header from './Header';
 
 function App() {
-  const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(1);
 
   function increment() {
     setCounter(counter + 1);
